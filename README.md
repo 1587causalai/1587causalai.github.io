@@ -6,6 +6,8 @@
 
 **A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
+al-folio 是一个专为学术界打造的 Jekyll 主题，它以简洁优雅的设计和丰富实用的功能而著称。这个主题不仅支持亮暗模式切换、CV展示、论文发布管理、项目展示等核心功能，还能完美处理数学公式、代码高亮、图表等学术写作需求。目前，它已被众多学者、实验室、课程和会议采用，从 CMU 的课程网站到各类研讨会主页都能看到它的身影。作为一个基于 Jekyll 的开源项目，它不仅部署便捷（支持 GitHub Pages），而且拥有活跃的维护团队和完善的文档支持，使得无论是初学者还是专业开发者都能轻松地搭建出专业的学术网站。
+
 ---
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
@@ -256,7 +258,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ## Getting started
 
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
+Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy&#39;s blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
 
 ## Installing and Deploying
 
@@ -340,7 +342,7 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 
 #### Photos, Audio, Video and more
 
-Photo formatting is made simple using [Bootstrap's grid system](https://getbootstrap.com/docs/4.4/layout/grid/). Easily create beautiful grids within your blog posts and project pages, also with support for [video](https://alshedivat.github.io/al-folio/blog/2023/videos/) and [audio](https://alshedivat.github.io/al-folio/blog/2023/audios/) embeds:
+Photo formatting is made simple using [Bootstrap&#39;s grid system](https://getbootstrap.com/docs/4.4/layout/grid/). Easily create beautiful grids within your blog posts and project pages, also with support for [video](https://alshedivat.github.io/al-folio/blog/2023/videos/) and [audio](https://alshedivat.github.io/al-folio/blog/2023/audios/) embeds:
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
@@ -440,8 +442,11 @@ If you would like to improve documentation or fix a minor inconsistency or bug, 
 Our most active contributors are welcome to join the maintainers team. If you are interested, please reach out!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tbody>
     <tr>
@@ -454,6 +459,7 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

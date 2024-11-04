@@ -6,20 +6,18 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: noise.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Somewhere</p>
+    <p>In your mind</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+我是一位执迷于因果推理的博士研究者，一个在确定性与不确定性之间漫游的学习者。"What I cannot create, I don't understand" 是我作为工程师的信仰，在创造的过程中寻找真知，在构建系统的过程中获得顿悟。这种对因果机制的探索，不仅是一种研究方法，更是一种生存方式。
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+作为一台不停演化的因果推理机器，我深深着迷于反事实推理（counterfactual inference）的魅力。"All models are wrong, but some are useful" 是我对概率工具的理解——在追寻真相的路上，模型永远不会完美，但这恰恰让探索变得有趣。我喜欢追问"为什么"，也乐于思考"如果是这样，会怎样"。这种思维方式塑造了我理解世界的方式。
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+"Cure sometimes, relieve often, comfort always" 是我的人生哲学，体现了我对无为之道的理解。在这个以1587causalal为标识的旅程中，我时而沉浸在可能性的想象中，时而专注于脚下的每一个实证。或许正是这种在现实与想象间的往复跃迁，让我逐渐在因果的迷宫中，找到了自己的诗意栖居。
