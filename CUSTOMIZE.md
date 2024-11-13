@@ -1,4 +1,4 @@
-# Customize
+# 定制化
 
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
@@ -8,30 +8,30 @@ The project is structured as follows, focusing on the main components that you w
 
 ```txt
 .
-├── 📂 assets/: contains the assets that are displayed in the website
-│   └── 📂 json/
-    │   └── 📄 resume.json: CV in JSON format (https://jsonresume.org/)
+├── 📂 assets/: 包含网站展示用的资源文件
+│   └── 📂 json/
+    │   └── 📄 resume.json: JSON格式的简历 (https://jsonresume.org/)
 ├── 📂 _bibliography/
-│   └── 📄 papers.bib: bibliography in BibTeX format
-├── 📄 _config.yml: the configuration file of the template
-├── 📂 _data/: contains some of the data used in the template
-│   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume.json is not found
-│   └── 📄 repositories.yml: users and repositories info in YAML format
-├── 📂 _includes/: contains code parts that are included in the main HTML file
-│   └── 📄 news.liquid: defines the news section layout in the about page
-├── 📂 _layouts/: contains the layouts to choose from in the frontmatter of the Markdown files
-├── 📂 _news/: the news that will appear in the news section in the about page
-├── 📂 _pages/: contains the pages of the website
-|   └── 📄 404.md: 404 page (page not found)
-├── 📂 _posts/: contains the blog posts
-├── 📂 _projects/: contains the projects
-└── 📂 _sass/: contains the SASS files that define the style of the website
-    ├── 📄 _base.scss: base style of the website
-    ├── 📄 _cv.scss: style of the CV page
-    ├── 📄 _distill.scss: style of the Distill articles
-    ├── 📄 _layout.scss: style of the overall layout
-    ├── 📄 _themes.scss: themes colors and a few icons
-    └── 📄 _variables.scss: variables used in the SASS files
+│   └── 📄 papers.bib: BibTeX格式的参考文献
+├── 📄 _config.yml: 模板的配置文件
+├── 📂 _data/: 包含模板使用的一些数据
+│   ├── 📄 cv.yml: YAML格式的简历，当找不到 assets/json/resume.json 时使用
+│   └── 📄 repositories.yml: YAML格式的用户和仓库信息
+├── 📂 _includes/: 包含被引入到主HTML文件中的代码片段
+│   └── 📄 news.liquid: 定义关于页面中新闻部分的布局
+├── 📂 _layouts/: 包含可在 Markdown 文件的 frontmatter 中选择的布局
+├── 📂 _news/: 将显示在关于页面新闻部分的新闻
+├── 📂 _pages/: 包含网站的页面
+|   └── 📄 404.md: 404页面（页面未找到）
+├── 📂 _posts/: 包含博客文章
+├── 📂 _projects/: 包含项目
+└── 📂 _sass/: 包含定义网站样式的 SASS 文件
+    ├── 📄 _base.scss: 网站的基础样式
+    ├── 📄 _cv.scss: 简历页面的样式
+    ├── 📄 _distill.scss: Distill 文章的样式
+    ├── 📄 _layout.scss: 整体布局的样式
+    ├── 📄 _themes.scss: 主题颜色和一些图标
+    └── 📄 _variables.scss: SASS文件中使用的变量
 ```
 
 ## Configuration
@@ -168,7 +168,7 @@ Due to the necessary permissions (PAT and others mentioned above), it is recomme
 
 ## Customizing fonts, spacing, and more
 
-You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_sass/_base.scss). The easiest way to try in advance the changes is by using [chrome dev tools](https://developer.chrome.com/docs/devtools/css) or [firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/). In there you can click in the element and find all the attributes that are set for that element and where are they. For more information on how to use this, check [chrome](https://developer.chrome.com/docs/devtools/css) and [firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html) how-tos, and [this tutorial](https://www.youtube.com/watch?v=l0sgiwJyEu4).
+You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_sass/_base.scss). The easiest way to try in advance the changes is by using [chrome dev tools](https://developer.chrome.com/docs/devtools/css) or [firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html) how-tos, and [this tutorial](https://www.youtube.com/watch?v=l0sgiwJyEu4).
 
 ## Scheduled Posts
 
