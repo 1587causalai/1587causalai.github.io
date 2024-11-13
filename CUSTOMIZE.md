@@ -56,11 +56,12 @@ The user and repository information is defined in [\_data/repositories.yml](_dat
 
 You can create new pages by adding new Markdown files in the [\_pages](_pages/) directory. The easiest way to do this is to copy an existing page and modify it. You can choose the layout of the page by changing the [layout](https://jekyllrb.com/docs/layouts/) attribute in the [frontmatter](https://jekyllrb.com/docs/front-matter/) of the Markdown file, and also the path to access it by changing the [permalink](https://jekyllrb.com/docs/permalinks/) attribute. You can also add new layouts in the [\_layouts](_layouts/) directory if you feel the need for it.
 
-## Creating new blog posts
 
-To create a new blog post, you can add a new Markdown file in the [\_posts](_posts/) directory. The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
+## 创建新的博客文章
 
-If you want to create blog posts that are not ready to be published, but you want to track it with git, you can create a [\_drafts](https://jekyllrb.com/docs/posts/#drafts) directory and store them there.
+要创建新的博客文章，你可以在 [\_posts](_posts/) 目录下添加一个新的 Markdown 文件。[文件名必须遵循](https://jekyllrb.com/docs/posts/#creating-posts)格式 `YYYY-MM-DD-title.md`。最简单的方法是复制一个现有的博客文章并修改它。注意某些博客文章在 [frontmatter](https://jekyllrb.com/docs/front-matter/) 中有可选字段，用于启用特定的行为或功能。
+
+如果你想创建尚未准备好发布的博客文章，但想用 git 追踪它们，你可以创建一个 [\_drafts](https://jekyllrb.com/docs/posts/#drafts) 目录并将它们存储在那里。
 
 ## Creating new projects
 
@@ -197,3 +198,9 @@ In this folder you need to store your file in the same format as you would in `_
   - `2025-08-27-file2.md` will be posted exactly on 27-August-2025
   - `File3.md` will not be posted at all
   - `2026-02-31-file4.md` is supposed to be posted on 31-February-2026, but there is no 31st in February hence this file will never be posted either
+
+## 创建新的博客文章
+
+要创建新的博客文章，你可以在 [\_posts](_posts/) 目录下添加一个新的 Markdown 文件。[文件名必须遵循](https://jekyllrb.com/docs/posts/#creating-posts)格式 `YYYY-MM-DD-title.md`。最简单的方法是复制一个现有的博客文章并修改它。注意某些博客文章在 [frontmatter](https://jekyllrb.com/docs/front-matter/) 中有可选字段，用于启用特定的行为或功能。
+
+如果你想创建尚未准备好发布的博客文章，但想用 git 追踪它们，你可以创建一个 [\_drafts](https://jekyllrb.com/docs/posts/#drafts) 目录并将它们存储在那里。
