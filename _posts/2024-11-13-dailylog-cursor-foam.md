@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DailyLog + Cursor + Foam：打造个人知识与成长闭环
+title:  Cursor + Foam：DailyLog 打造个人知识与成长闭环
 date: 2024-11-13 10:30:00
 description: 一个面向开发者的日程安排和知识管理系统
 tags: cursor dailylog knowledge-management
