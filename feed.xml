@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="cn"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://1587causalai.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://1587causalai.github.io/" rel="alternate" type="text/html" hreflang="cn"/><updated>2024-11-13T12:48:14+00:00</updated><id>https://1587causalai.github.io/feed.xml</id><title type="html">Teach AI Causes and Effects</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Overleaf + Cursor 论文写作指南</title><link href="https://1587causalai.github.io/blog/2024/overleaf-cursor/" rel="alternate" type="text/html" title="Overleaf + Cursor 论文写作指南"/><published>2024-11-04T02:30:00+00:00</published><updated>2024-11-04T02:30:00+00:00</updated><id>https://1587causalai.github.io/blog/2024/overleaf-cursor</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/overleaf-cursor/"><![CDATA[<p>在学术写作中，Overleaf是强大的在线LaTeX编辑平台，Cursor是智能的本地编辑器。将两者结合使用，可以让您的论文写作体验更加流畅和高效。</p> <p>详情参见 <a href="https://github.com/1587causalai/LLM-Quickstart-Guide/blob/main/cursor/overleaf-cursor-guide.md">Overleaf + Cursor 论文写作指南</a></p> <p>在我的想象中, 人工智能会逐渐取代学术写作中的重复性工作, 人们只需要负责决策, 反馈, 和创新.</p>]]></content><author><name></name></author><category term="tools"/><category term="cursor"/><summary type="html"><![CDATA[使用 Overleaf 和 Cursor AI 提升学术写作效率]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://1587causalai.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://1587causalai.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://1587causalai.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://1587causalai.github.io/blog/2024/tabs</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="cn"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://1587causalai.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://1587causalai.github.io/" rel="alternate" type="text/html" hreflang="cn"/><updated>2024-11-13T14:30:55+00:00</updated><id>https://1587causalai.github.io/feed.xml</id><title type="html">Teach AI Causes and Effects</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">DailyLog + Cursor + Foam：打造个人知识与成长闭环</title><link href="https://1587causalai.github.io/blog/2024/dailylog-cursor-foam/" rel="alternate" type="text/html" title="DailyLog + Cursor + Foam：打造个人知识与成长闭环"/><published>2024-11-13T10:30:00+00:00</published><updated>2024-11-13T10:30:00+00:00</updated><id>https://1587causalai.github.io/blog/2024/dailylog-cursor-foam</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/dailylog-cursor-foam/"><![CDATA[<p>我们的需求很简单：作为一个开发者，需要一个轻量级的日常记录工具来管理想法和知识。目前的解决方案是：使用 VS Code + Foam 插件来进行日常记录，通过 Git 进行版本控制，所有笔记都用 Markdown 格式存储在 journal/ 目录下，使用 [[wiki-links]] 和 #tags 来组织内容关联。不需要复杂的网站部署，不需要花哨的功能，就保持最简单的记录和版本控制，让工具回归到服务内容的本质。</p> <p>所以我们开发了 <a href="https://github.com/1587causalai/DailyLog.git">DailyLog</a>, DailyLog 是一个面向开发者的个人知识与成长管理系统。它注重与 Cursor (VS Code 的 AI 增强版本) 的无缝集成，让你能够从快速记录想法到深度开发实现，最后到成果展示，形成一个完整的工作流程。</p> <h2 id="foam-是什么">Foam 是什么？</h2> <p>https://github.com/foambubble/foam</p> <p>个人最喜欢的三个功能是：</p> <ul> <li>Daily note</li> <li>建立笔记链接：运用 Foam 的快捷方式和自动补全功能，通过[[wikilinks]]在笔记间创建链接，实现知识图谱的构建与导航。</li> <li>查看知识图谱：执行Foam: Show Graph命令，将工作区视为连接的图谱，了解笔记连接关系，还可通过标签探索、反向链接等功能探索想法间的关系。</li> </ul>]]></content><author><name></name></author><category term="tools"/><category term="cursor"/><category term="dailylog"/><category term="knowledge-management"/><summary type="html"><![CDATA[一个面向开发者的知识管理系统，从想法记录到项目实现的完整工作流]]></summary></entry><entry><title type="html">Overleaf + Cursor 论文写作指南</title><link href="https://1587causalai.github.io/blog/2024/overleaf-cursor/" rel="alternate" type="text/html" title="Overleaf + Cursor 论文写作指南"/><published>2024-11-04T02:30:00+00:00</published><updated>2024-11-04T02:30:00+00:00</updated><id>https://1587causalai.github.io/blog/2024/overleaf-cursor</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/overleaf-cursor/"><![CDATA[<p>在学术写作中，Overleaf是强大的在线LaTeX编辑平台，Cursor是智能的本地编辑器。将两者结合使用，可以让您的论文写作体验更加流畅和高效。</p> <p>详情参见 <a href="https://github.com/1587causalai/LLM-Quickstart-Guide/blob/main/cursor/overleaf-cursor-guide.md">Overleaf + Cursor 论文写作指南</a></p> <p>在我的想象中, 人工智能会逐渐取代学术写作中的重复性工作, 人们只需要负责决策, 反馈, 和创新.</p>]]></content><author><name></name></author><category term="tools"/><category term="cursor"/><summary type="html"><![CDATA[使用 Overleaf 和 Cursor AI 提升学术写作效率]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://1587causalai.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://1587causalai.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://1587causalai.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://1587causalai.github.io/blog/2024/tabs</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
 
@@ -13,16 +13,16 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="7feb795c-9655-4ceb-a18a-7257a072211c" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="7feb795c-9655-4ceb-a18a-7257a072211c" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="1660d9aa-d40a-464f-8993-deff23c094ec" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="1660d9aa-d40a-464f-8993-deff23c094ec" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="58bc4c3d-b71b-45f8-9cd3-f443bc076228" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="58bc4c3d-b71b-45f8-9cd3-f443bc076228" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="d9aa498f-fee7-4f76-898d-be8207388c60" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="d9aa498f-fee7-4f76-898d-be8207388c60" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="fb4230fb-c8a3-407e-b0c6-3de534763976" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="fb4230fb-c8a3-407e-b0c6-3de534763976" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://1587causalai.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://1587causalai.github.io/blog/2024/typograms</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="540afb7c-1319-4b1a-8da1-dc88586631fd" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="540afb7c-1319-4b1a-8da1-dc88586631fd" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://1587causalai.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://1587causalai.github.io/blog/2024/typograms</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
 </span><span class="sb">+----+
 |    |---&gt; My first diagram!
 +----+</span>
@@ -654,78 +654,4 @@ index 3bb754ac..a34839c0 100644
     }
   }
 }
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry><entry><title type="html">a post with geojson</title><link href="https://1587causalai.github.io/blog/2024/geojson-map/" rel="alternate" type="text/html" title="a post with geojson"/><published>2024-01-26T17:57:00+00:00</published><updated>2024-01-26T17:57:00+00:00</updated><id>https://1587causalai.github.io/blog/2024/geojson-map</id><content type="html" xml:base="https://1587causalai.github.io/blog/2024/geojson-map/"><![CDATA[<p>This is an example post with some <a href="https://geojson.org/">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/">geojson.io</a>.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
-</span><span class="sb">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-geojson">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry></feed>
+</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry></feed>
