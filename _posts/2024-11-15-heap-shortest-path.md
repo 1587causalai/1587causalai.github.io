@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 从外卖配送到最短路径：堆数据结构的优雅之美
-date: 2024-03-21
+date: 2024-11-15
 description: 探索堆数据结构如何优化最短路径算法，以及它在现实生活中的应用
 tags: algorithms data-structures optimization
 categories: computer-science
