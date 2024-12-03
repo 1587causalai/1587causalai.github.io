@@ -25,7 +25,7 @@ featured: false
 
 ## DailyLog 项目介绍
 
-基于上述需求，我开发了 DailyLog(https://github.com/1587causalai/DailyLog.git) - 一个面向开发者的个人知识与成长管理系统。它的工作流程是：
+基于上述需求，我开发了 DailyLog https://github.com/1587causalai/DailyLog.git - 一个面向开发者的个人知识与成长管理系统。它的工作流程是：
 
 1. **每日安排（Daily Planning）**
    - 在 journal/YYYY-MM-DD.md 中记录每日计划
