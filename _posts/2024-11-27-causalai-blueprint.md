@@ -138,7 +138,7 @@ $$
 \end{equation}
 $$
 
-其中，$p_r(\cdot|x;\beta)$ 表示对奖励函数 $r(\cdot|x)$ 应用softmax变换（温度参数为$\beta$）得到的Boltzmann探索概率分布：
+其中，$p_r(\cdot|x;\beta)$ 表示对奖励函数 $r(\cdot|x)$ 应用softmax变换（温度参数为 $\beta$ ）得到的Boltzmann探索概率分布：
 
 $$
 \begin{equation}
