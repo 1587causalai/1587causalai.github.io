@@ -77,7 +77,7 @@ $$\begin{align}
 
 ## The DiscoSCM Framework
 
-DiscoSCM（Distribution-consistency Structural Causal Models）作为基于个体因果（Individual Causality）的框架，引��了专门的随机变量U来表征个体特征。这使得描述因果机制的结构方程从传统的 $$Y = f(X, E)$$ 扩展为 $$Y = f(X, E; U)$$，其中 $$X$$ 是原因变量，$$E$$ 是外生噪声，而 $$U$$ 则表征该个体。
+DiscoSCM（Distribution-consistency Structural Causal Models）作为基于个体因果（Individual Causality）的框架，引入了专门的随机变量U来表征个体特征。这使得描述因果机制的结构方程从传统的 $$Y = f(X, E)$$ 扩展为 $$Y = f(X, E; U)$$，其中 $$X$$ 是原因变量，$$E$$ 是外生噪声，而 $$U$$ 则表征该个体。
 
 这个框架一个根本的创新在于对因果结果随机性来源的重新诠释。在主流因果框架中，SCM将观察到的具体结果 $$Y=y$$ 归因于外生噪声 $$E$$ 的特定实现值，而 PO（Potential Outcome）框架则将其归因于特定个体的选择。DiscoSCM 融合了这两者，明确指出：观察到的具体结果 $$Y=y$$ 是由外生噪声 $$E$$ 的实现值和个体表征 $$U$$ 的取值共同决定的。 
 
