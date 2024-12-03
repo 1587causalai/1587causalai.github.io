@@ -1,10 +1,24 @@
 # README
 
+> 快速开始:
+> 1. 使用 Docker (推荐):
+>    ```bash
+>    docker-compose up
+>    ```
+>    然后访问 http://localhost:8080
+>
+> 2. 本地安装:
+>    ```bash
+>    bundle install
+>    bundle exec jekyll serve
+>    ```
+>    然后访问 http://127.0.0.1:4000/ƒƒ
+
 <div align="center">
 
-[![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+<!-- [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/) -->
 
-**A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
+**al-folio: A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
 al-folio 是一个专为学术界打造的 Jekyll 主题，它以简洁优雅的设计和丰富实用的功能而著称。这个主题不仅支持亮暗模式切换、CV展示、论文发布管理、项目展示等核心功能，还能完美处理数学公式、代码高亮、图表等学术写作需求。目前，它已被众多学者、实验室、课程和会议采用，从 CMU 的课程网站到各类研讨会主页都能看到它的身影。作为一个基于 Jekyll 的开源项目，它不仅部署便捷（支持 GitHub Pages），而且拥有活跃的维护团队和完善的文档支持，使得无论是初学者还是专业开发者都能轻松地搭建出专业的学术网站。
 
