@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Let's Dance with Causality!</p>
-news: true # includes a list of news items
+news: false # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
