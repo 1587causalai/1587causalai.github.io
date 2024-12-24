@@ -1,7 +1,5 @@
 # 项目结构说明
 
-
-
 ## 目录结构
 
 ```
@@ -12,7 +10,6 @@ Dockerfile              INSTALL.md              _config.yml             _news   
 FAQ.md                  LICENSE                 _data                   _pages                  _sass                   docker-compose-slim.yml package.json            robots.txt
 ```
 
-
 - `_bibliography/`: 存放BibTeX格式的论文引用文件
 - `_data/`: 存放网站配置数据，如CV信息
 - `_includes/`: 存放可重用的HTML片段
@@ -22,7 +19,6 @@ FAQ.md                  LICENSE                 _data                   _pages  
 - `_projects/`: 存放项目展示内容
 - `_sass/`: 存放样式文件
 - `assets/`: 存放静态资源(图片、PDF等)
-
 
 ## 快速开始
 
