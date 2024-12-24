@@ -1,12 +1,12 @@
 # README
 
 > 快速开始:
+>
 > 1. 使用 Docker (推荐):
 >    ```bash
 >    docker-compose up
 >    ```
 >    然后访问 http://localhost:8080
->
 > 2. 本地安装:
 >    ```bash
 >    bundle install
@@ -404,6 +404,7 @@ You may also use the following codes for displaying this in any other pages.
 ```
 
 ---
+
 #### Theming
 
 A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the `_sass/_themes.scss` file. Other color variables are listed there as well. The stock theme color options available can be found at [\_sass/\_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.

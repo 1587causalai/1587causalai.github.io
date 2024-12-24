@@ -17,19 +17,18 @@ featured: true
 ## 为什么堆如此重要？
 
 在最短路径问题中，我们需要不断地：
+
 1. 找到当前最近的未访问节点
 2. 更新与该节点相邻的节点的距离
 
 如果使用普通数组，每次找最小值都需要遍历整个数组，时间复杂度是 O(V)。而使用堆结构，这个操作的复杂度仅为 O(logV)！
 
-
 更令人着迷的是这种设计思想：通过精心安排数据的组织方式，看似困难的问题可以变得异常简单。这不仅仅是个算法问题，更是一种解决复杂问题的智慧。
 
-## 代码实现示例 
-
-
+## 代码实现示例
 
 考虑一个简单的图：
+
 ```
 A --- 4 --- B
 |           |
@@ -39,17 +38,17 @@ C --- 1 --- D
 ```
 
 在寻找最短路径时：
+
 1. 我们需要不断选择"当前最近的未访问节点"
 2. 节点的距离会随着算法进行不断更新
 3. 每次都要在剩余节点中找最小距离
-
 
 ```python
 def dijkstra_with_heap(graph, start):
     distances = {node: float('inf') for node in graph}
     distances[start] = 0
     pq = [(0, start)]
-    
+
     while pq:
         # 获取最小距离节点：O(log V)
         current_distance, current = heapq.heappop(pq)
@@ -57,6 +56,7 @@ def dijkstra_with_heap(graph, start):
         heapq.heappush(pq, (new_distance, neighbor))
     # 总时间复杂度：O((V + E) log V)
 ```
+
 堆中的元素实际上代表了"候选路径", 堆就是帮我们维护这个"待考虑的路径"清单，确保我们总是优先考虑最短的路径。
 
 ```python
@@ -83,6 +83,3 @@ distances = {'A': 0, 'B': 3, 'C': 2, 'D': 6}
 
 # 第4步：弹出(6, 'D')，D没有邻居，算法结束
 ```
-
-
-

@@ -14,4 +14,4 @@ tags: [VSCode, Cursor, IDE, 开发工具]
 - Cursor等新一代AI辅助开发工具的创新
 - IDE与AI集成的趋势与挑战
 
-想了解更多详情，可以观看完整访谈：[Future of IDEs: VSCode, Cursor, etc](https://www.youtube.com/watch?v=0DjrbRQosrI) 
+想了解更多详情，可以观看完整访谈：[Future of IDEs: VSCode, Cursor, etc](https://www.youtube.com/watch?v=0DjrbRQosrI)

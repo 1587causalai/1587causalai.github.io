@@ -20,18 +20,14 @@ social: true # includes social icons at the bottom of the page
 
 "Cure sometimes, relieve often, comfort always" 是我的人生哲学，体现了我对无为之道的理解。在这个以1587causalal为标识的旅程中，我时而沉浸在可能性的想象中，时而专注于脚下的每一个实证。或许正是这种在现实与想象间的往复跃迁，让我逐渐在因果的迷宫中，找到了自己的诗意栖居。 -->
 
-
 <!-- 我是 Jared Karma，一个在因果研究者, 核心观点是 Causality is Invariance Across Heterogeneous Units.
 
-我特别关注因果关系的不变性特征。就像物理定律一样，每个因果关系都有其适用范围，都是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系。这启发我们将研究重点放在个体间的异质性（Heterogeneity）和同质性（Homogeneity）上，将其作为因果研究的基本要素(Primitive), 所以我们开发了基于个体因果(Individual Causality)的 DiscoSCM 框架. 
+我特别关注因果关系的不变性特征。就像物理定律一样，每个因果关系都有其适用范围，都是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系。这启发我们将研究重点放在个体间的异质性（Heterogeneity）和同质性（Homogeneity）上，将其作为因果研究的基本要素(Primitive), 所以我们开发了基于个体因果(Individual Causality)的 DiscoSCM 框架.
 
 在人工智能领域，我的研究聚焦于将 DiscoSCM与大语言模型相结合。我相信，因果思维是提升AI系统理解力和推理能力的关键。正如人类在成长过程中自然形成的因果认知能力一样，让AI系统掌握因果推理，将是实现真正智能的重要一步。 -->
 
+我们探索因果关系新视角 --- Causality is Invariance Across Heterogeneous Units.
 
-我们探索因果关系新视角 --- Causality is Invariance Across Heterogeneous Units. 
+就像物理定律一样，每个因果关系都有其适用范围，都是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系。这启发我们将研究重点放在个体间的异质性（Heterogeneity）和同质性（Homogeneity）上，将其作为因果研究的基本要素(Primitive), 所以我们开发了基于个体因果(Individual Causality)的 DiscoSCM 框架.
 
-就像物理定律一样，每个因果关系都有其适用范围，都是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系。这启发我们将研究重点放在个体间的异质性（Heterogeneity）和同质性（Homogeneity）上，将其作为因果研究的基本要素(Primitive), 所以我们开发了基于个体因果(Individual Causality)的 DiscoSCM 框架. 
-
-在人工智能领域，我们致力于将DiscoSCM与大语言模型融合。我们坚信，因果思维是增强AI系统理解力和推理能力的关键。正如人类在发展过程中自然获得因果认知能力，赋予AI系统因果推理能力将是实现真正智能的重要里程碑. 更多详情参见 [Let's Dance with Causality!](/blog/2024/causalai-blueprint/). 
-
-
+在人工智能领域，我们致力于将DiscoSCM与大语言模型融合。我们坚信，因果思维是增强AI系统理解力和推理能力的关键。正如人类在发展过程中自然获得因果认知能力，赋予AI系统因果推理能力将是实现真正智能的重要里程碑. 更多详情参见 [Let's Dance with Causality!](/blog/2024/causalai-blueprint/).
