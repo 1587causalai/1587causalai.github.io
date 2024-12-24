@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI-Powered 项目管理：学术严谨性 + 知识普及性 + 代码快速实现 
+title: AI-Powered 项目管理：学术严谨性 + 知识普及性 + 代码快速实现
 date: 2024-12-23 10:00:00
 description: 一个融合学术论文、项目文档和代码实现的 AI-Powered 现代化知识创造与传播体系
 tags: research workflow AI knowledge-sharing
