@@ -1,81 +1,89 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Research Flow
+description: 重新定义知识创造与传播的方式
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Research Flow: 重新定义知识创造与传播的方式
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## 时代背景与机遇
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+自2022年11月30日ChatGPT问世以来, 人工智能开始进入一个爆炸式发展的阶段, 发展如此之快，以至于让不少顶尖科学家都在开始认真的思考人类将何去何从. 有人说我们人类是硅基生命的引导程序, 一旦超级人工智能出现, 它会取代我们人类的一切工作, 人类可能会变得毫无用处. 这种观点困扰了很多人,  天才科学家 Stephen Wolfram, 有人称他为 AI 时代的康德,  从其不可约化的复杂性计算理论出发, 推导出来一个人类与 AI 共存的未来世界,  在那里寻找"可约化的口袋"（reducible pockets）, 探索因果关系是一门永远都不会结束的事业. 我们相信在未来世界里, 创造知识的科学研究将会是人类越来越广泛深度参与的工作, 因此, 我们需要新的工具来适应这个时代的知识创造和传播需求. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## 项目愿景
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+创建一个现代化的知识创造与传播体系，实现从深奥研究到实际应用的无缝转化。
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 三位一体架构
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+1. **学术严谨性**
+   - 基于学术论文的规范
+   - 确保知识的可靠性和可追溯性
+   - 通过版本控制记录思维演进
 
-{% raw %}
+2. **知识普及性**
+   - 将复杂概念转化为通俗表达
+   - 搭建专业研究与普通读者的桥梁
+   - 扩大知识的影响力
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+3. **代码实现**
+   - 将理论转化为实际应用
+   - 实现从概念到产品的快速迭代
+   - 借助AI提升开发效率
+
+### 技术架构
+
+统一项目仓库结构：
+```
+project/
+├── paper/     # 学术论文（严谨性）
+├── docs/      # 项目文档（普及性）
+└── src/       # 代码实现（应用性）
 ```
 
-{% endraw %}
+## 产品定位
+
+一个智能体模式的IDE，不仅仅是代码编辑器，而是完整的研究-开发-部署平台。
+
+### 核心特点
+- 无缝集成论文写作和代码实现
+- 智能化的知识管理和检索
+- 研究笔记和代码的双向追踪
+- 基于上下文的智能辅助
+
+## 价值主张
+
+想象这样一个场景：一位研究者刚有了突破性的发现...
+
+*"在传统流程中，她需要花几个月写论文，再花几个月把论文变成大众能看懂的内容，然后可能要花上半年把想法变成代码，最后还需要很长时间才能做成产品。*
+
+*但在我们的平台上，当她在写论文时，AI助手已经在帮她准备通俗易懂的解释。当她在推导公式时，系统已经在建议可能的代码实现。等论文写完，大部分代码框架已经搭好，产品原型也在路上了。"*
+
+## 下一步计划
+
+1. **核心功能开发**
+   - 基础编辑功能实现
+   - AI辅助能力集成
+   - 知识管理系统搭建
+
+2. **用户验证**
+   - 收集早期用户反馈
+   - 优化用户体验
+   - 调整产品定位
+
+3. **生态建设**
+   - 建立用户社区
+   - 完善文档系统
+   - 开发插件机制
+
+## 远景目标
+
+成为重新定义知识创造和应用方式的平台，让每个想法都能以最高效的方式完成从论文到产品的转化。
+
+---
+
+注：本文档基于深度对话讨论整理，反映了项目的初步构想。随着项目发展，内容将持续更新完善。
