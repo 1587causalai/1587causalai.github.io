@@ -5,7 +5,7 @@ date: 2024-11-15
 description: 探索堆数据结构如何优化最短路径算法，以及它在现实生活中的应用
 tags: algorithms data-structures optimization
 categories: computer-science
-featured: true
+featured: false
 ---
 
 你有没有好奇过，外卖小哥是如何快速决定先送哪个订单？或者是导航软件是怎么在眨眼间就找到最佳路线？这些看似简单的日常问题背后，隐藏着一个优雅的数据结构 —— 堆（Heap）。
