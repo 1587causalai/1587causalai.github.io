@@ -94,19 +94,15 @@ _但在我们的平台上，当她在写论文时，AI助手已经在帮她准�
 
 注：本文档基于深度对话讨论整理，反映了项目的初步构想。随着项目发展，内容将持续更新完善。
 
-
-
-
 ## QA
 
-
 1. 项目从哪里开始呢？
-   
+
 层次一: 从 payslips 项目开始, 一个产品要有用, 要在某一个具体的场景，具体的例子下面有用。MVP 是产品最小可行性产品，要能用，要能用起来。
 
-利用先现在有的工具组合成一个工具流 = overleaf 论文 + docsify 文档 + cursor 智能体. 
+利用先现在有的工具组合成一个工具流 = overleaf 论文 + docsify 文档 + cursor 智能体.
 
-层次二: 从参考融合 https://storm.genie.stanford.edu/ + cline(cursor 开始) 项目开始, 作出自己智能体. 需要论文的时候调用 storm, 需要文档的时候调用 xx, 需要 dev 调用 cursor. 
+层次二: 从参考融合 https://storm.genie.stanford.edu/ + cline(cursor 开始) 项目开始, 作出自己智能体. 需要论文的时候调用 storm, 需要文档的时候调用 xx, 需要 dev 调用 cursor.
 
 层次三: 各种智能体统一规划管理
 
