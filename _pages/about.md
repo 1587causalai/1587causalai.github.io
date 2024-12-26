@@ -26,8 +26,8 @@ social: true # includes social icons at the bottom of the page
 
 在人工智能领域，我的研究聚焦于将 DiscoSCM与大语言模型相结合。我相信，因果思维是提升AI系统理解力和推理能力的关键。正如人类在成长过程中自然形成的因果认知能力一样，让AI系统掌握因果推理，将是实现真正智能的重要一步。 -->
 
-在这个人工智能凶猛而来的时代, 人类很多工作将会被取代, 甚至会导致自身存在价值质问. 然而, 受到 Stephen Wolfram 的计算复杂性理论启发, 因果关系是复杂系统可约化的口袋(Reducible Pocket), 我们相信以因果关系为本质的科学探索是人类日益重要的永恒事业.
+在这个人工智能凶猛而来的时代, 人类很多工作将会被取代, 甚至会导致自身存在价值质问. 受到 Stephen Wolfram 的计算复杂性理论启发, 因果关系是复杂系统可约化的口袋(Reducible Pocket), 我们相信以因果关系为本质的**科学探索是人类日益重要的永恒事业.**
 
-我们偏好因果关系新视角 --- Causality is Invariance Across Heterogeneous Units. 就像物理定律一样，每个因果关系都有其适用范围，是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系. 基于此观察，我们将个体间的异质性（Heterogeneity）和同质性（Homogeneity）视为因果研究的基本要素(Primitive)，由此发展出基于个体因果(Individual Causality)的 DiscoSCM 框架.
+我们偏好因果关系新视角 --- Causality as Invariance Across Heterogeneous Units. 就像物理定律一样，每个因果关系都有其适用范围，是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系. 基于此我们将个体间的异质性（Heterogeneity）和同质性（Homogeneity）视为因果研究的基本要素(Primitive)，建立了基于个体因果(Individual Causality)的 DiscoSCM 框架.
 
 正如人类在发展过程中自然获得因果思维，赋予AI系统因果推理能力将是实现真正智能的重要里程碑. 我们探索融合 DiscoSCM 因果框架和大语言模型, 坚信因果关系是未来AI系统必不可少的关键组件. 更多详情参见 [Let's Dance with Causality!](/blog/2024/causalai-blueprint/).
