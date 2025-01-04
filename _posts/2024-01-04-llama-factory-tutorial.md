@@ -55,7 +55,7 @@ llamafactory-cli webui
 - 训练进度条稳步前进，让人心里踏实
 - GPU 显存使用情况一目了然，再也不用担心爆显存
 
-更让我惊喜的是，WebUI 还贴心地生成了完整的训练命令：
+更让我觉得贴心的是，WebUI 还贴心地生成了完整的训练命令：
 
 ```bash
 llamafactory-cli train \
@@ -142,7 +142,15 @@ llamafactory-cli train \
     --pref_ftx 0 \
     --pref_loss sigmoid
 ```
+训练完成后，在 `saves/internlm2-1.8b/lora/dpo_train/` 目录下生成了训练结果：
+- `training_loss.png`：训练损失曲线
+- `training_rewards_accuracies.png`：奖励和准确率曲线
+- `adapter_model.safetensors`：训练得到的 LoRA 权重
+- 其他配置文件和中间检查点
 
-这就是 LlamaFactory 令我惊喜的地方：它不仅提供了漂亮的界面，更重要的是，它让你能够从简单的示例开始，通过预览命令功能，轻松地过渡到自己的定制化训练。这种设计真的是太智慧了！
+训练损失曲线:
+![20250104183454](https://s2.loli.net/2025/01/04/XDZa4zP8sL6pH7f.png)
+
+
 
 LlamaFactory 确实是一个非常好用的工具，它让模型微调变得如此简单。通过实践我发现，它的 WebUI 不仅让操作变得直观，更重要的是帮助我们理解了微调过程中的各个参数和步骤。不过需要注意的是，在实际使用中，数据质量和模型选择仍然是最关键的因素。工具再好，也要有优质的数据和合适的基座模型才能训练出好的效果。更多解读理解文档请参考 [link](1587causalai.github.io/llama_factory/)。
