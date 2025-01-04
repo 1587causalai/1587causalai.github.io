@@ -9,7 +9,7 @@ giscus_comments: true
 ---
 
 
-各位朋友，今天我必须、一定要、强烈地安利一个神奇的工具——**LlamaFactory-CLI WebUI**！如果你和我一样，对微调大型语言模型充满热情，但又被各种复杂的命令行参数和环境配置搞得头大，那么请你务必认真看完这篇文章。因为，它真的会让你尖叫！
+各位朋友，今天我必须、一定要、强烈地安利一个神奇的工具——**LlamaFactory**！如果你和我一样，对微调大型语言模型充满热情，但又被各种复杂的命令行参数和环境配置搞得头大，那么请你务必认真看完这篇文章。因为，它真的会让你尖叫！
 
 我这篇文章将理论结合实践来写，通过两个具体步骤来展示 LlamaFactory 的强大：
 1. 最快速地跑一个最简单的 DPO，体现它的易用性
@@ -46,7 +46,9 @@ llamafactory-cli webui
 
 点击"开始训练"后，眼前的画面让我感动得想哭：
 
-![训练界面](https://s2.loli.net/2025/01/04/mu69nbXC7gkjowR.png)
+<div style="text-align: center;">
+    <img src="https://s2.loli.net/2025/01/04/mu69nbXC7gkjowR.png" alt="训练界面" style="max-width: 85%; height: auto;">
+</div>
 
 **这个训练过程简直就是一场视觉盛宴！**
 
@@ -149,7 +151,9 @@ llamafactory-cli train \
 - 其他配置文件和中间检查点
 
 训练损失曲线:
-![20250104183454](https://s2.loli.net/2025/01/04/XDZa4zP8sL6pH7f.png)
+<div style="text-align: center;">
+    <img src="https://s2.loli.net/2025/01/04/XDZa4zP8sL6pH7f.png" alt="训练损失曲线" style="max-width: 85%; height: auto;">
+</div>
 
 
 
