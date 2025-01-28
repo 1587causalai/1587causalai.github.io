@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research Flow
-description: 重新定义知识创造与传播的方式
+description: 未来的知识创造和传播形式探索
 img: assets/img/3.jpg
 importance: 2
 category: work
