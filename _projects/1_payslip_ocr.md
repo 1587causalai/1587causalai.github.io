@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PayslipOCR - 智能金融文档处理专家
+title: PayslipOCR
 description: 这是一个基于大语言模型的智能文档信息提取系统，通过多层验证机制和精确的信息提取策略，为工资单和税表等金融文档提供高准确度的自动化处理服务。
 img: assets/img/2.png
 importance: 1
