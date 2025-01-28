@@ -1,81 +1,72 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Dynamic-β-DPO
+description: Dynamic-β-DPO项目通过引入动态化权重参数β(x)，让AI在不同场景下智能调整对用户偏好的响应。我们的创新在于使用神经网络动态调节权重，提升模型的灵活性和适应性，使AI更精准地对齐用户需求。这一技术突破为AI的个性化和智能化开辟了新路径。
 img: assets/img/4.jpg
 importance: 1
 category: fun
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+在人工智能快速发展的今天，如何让大语言模型(LLMs)更好地对齐人类偏好已成为一个关键问题。我们的研究团队正在探索一种创新的方法来改进现有的模型对齐技术，这就是 Dynamic-β-DPO 项目。
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## 为什么需要动态化权重？
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+传统的 Direct Preference Optimization (DPO) 是一种广泛使用的模型对齐方法。它通过一个固定的超参数 β 来平衡两个重要因素：
+1. 奖励信号：反映用户的偏好
+2. 参考策略：保持模型的基础能力
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+然而，在实际应用中，不同场景下这两个因素的重要性是动态变化的。比如：
+- 当我们对用户偏好很确定时，应该更多地依赖奖励信号
+- 当面对不确定性高的场景时，应该更多地依赖参考策略
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+传统 DPO 使用固定的 β 值，无法适应这种动态需求，这就限制了模型的灵活性和效果。
 
-{% raw %}
+## 我们的创新：动态化的 β(x)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+为了解决这个问题，我们提出了 Dynamic-β-DPO 方法。核心创新在于：
 
-{% endraw %}
+1. **动态权重机制**：
+   - 将 β 从固定参数改进为一个神经网络 β(x)
+   - 能够根据输入场景动态调整权重
+   
+2. **智能平衡策略**：
+   - 自动在奖励信号和参考策略之间寻找最优平衡点
+   - 通过精心设计的正则化确保权重分配的合理性
+
+3. **稳定性保证**：
+   - 设计了专门的正则化策略
+   - 确保动态权重在合理范围内变化
+   - 保持训练过程的稳定性
+
+## 预期的影响
+
+这项研究有望带来以下改进：
+
+1. **更好的对齐效果**：
+   - 模型能更精准地捕捉不同场景下的用户偏好
+   - 在保持基础能力的同时实现更好的个性化
+
+2. **更广泛的应用**：
+   - 该方法不仅适用于语言模型
+   - 还可扩展到其他需要动态平衡的AI场景
+
+3. **更深的理论洞察**：
+   - 为理解模型对齐中的权重动态提供新视角
+   - 为后续研究提供理论基础
+
+## 研究现状
+
+目前，我们的项目正在积极推进中。我们已经：
+- 完成了理论框架的设计
+- 正在进行实验验证
+- 探索更多可能的应用场景
+
+## 结语
+
+Dynamic-β-DPO 项目代表了模型对齐领域的一个新方向。通过引入动态化权重机制，我们期望能为大模型对齐问题提供一个更优雅、更有效的解决方案。
+
+如果您对这个项目感兴趣，欢迎访问我们的[项目主页](https://github.com/junkangwu/beta-DPO)了解更多细节。我们也欢迎社区的贡献和反馈，一起推动这个领域的发展！
+

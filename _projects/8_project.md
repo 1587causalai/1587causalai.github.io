@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: 李宏毅AI课程
+description: 展示一个学生的角色，去学习生成式AI的理论知识，同时也要参与实践操作，最终达到对生成式AI的全面理解。
 img: assets/img/9.jpg
 importance: 2
 category: fun
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## 🌟 项目背景
+在ChatGPT掀起的技术浪潮中，你是否也想过系统学习生成式AI却不知从何下手？这个开源项目就像一位AI世界的引路人，巧妙融合了李宏毅教授的权威课程与书生·浦语实战营的工业级实践，为学习者打造了一条"理论+实战"的黄金通道。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## 🚀 核心亮点
+1. **三维学习法**  
+   - 理论骨架：李宏毅2024新课精华（已整理6大核心模块）
+   - 实践肌肉：InternLM实战营的模型调优秘籍
+   - 知识脉络：持续更新的[飞书笔记](https://swze06osuex.feishu.cn/wiki/QEj6w26WsigOyJkRxWyck6qVnQe)与[代码仓库](https://github.com/1587causalai/InternLM-Tutorial-Personalized-LLM-Research-Assistent)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+2. **直击工业级训练全流程**  
+   从增量预训练(IPT)到指令微调(SFT)，再到强化学习(RLHF)，完整复现MedicalGPT等工业级训练方案，让你亲手调教出会看病的AI医生。
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+3. **拒绝大而全，专注核心突破**  
+   项目像精准的手术刀，直切大模型训练、多模态应用、可解释性等关键领域，避免陷入技术细节的汪洋。
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## 🤔 适合谁学？
+- 想系统掌握LLM技术栈的工程师
+- 希望理解大模型底层逻辑的产品经理
+- 渴望参与开源项目的学生党
+- 任何对生成式AI充满好奇的终身学习者
 
-{% raw %}
+## 🌈 未来展望
+项目将持续追踪课程更新，计划新增：
+- 多模态大模型实战（GPT-4o技术解析已启动）
+- 模型压缩与部署优化
+- 伦理评估框架构建
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**技术没有秘密，只有不断突破的勇气**。这个开源项目就像一艘正在建造的星舰，邀请所有探索者共同绘制生成式AI的星际航图。
 
-{% endraw %}
+👉 [立即启程](https://github.com/1587causalai/InternLM-Tutorial-Personalized-LLM-Research-Assistent)
