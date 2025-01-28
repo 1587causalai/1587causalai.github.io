@@ -8,10 +8,10 @@ categories: ml-engineering
 giscus_comments: true
 ---
 
-
 各位朋友，今天我必须、一定要、强烈地安利一个神奇的工具——**LlamaFactory**！如果你和我一样，对微调大型语言模型充满热情，但又被各种复杂的命令行参数和环境配置搞得头大，那么请你务必认真看完这篇文章。因为，它真的会让你尖叫！
 
 我这篇文章将理论结合实践来写，通过两个具体步骤来展示 LlamaFactory 的强大：
+
 1. 最快速地跑一个最简单的 DPO，体现它的易用性
 2. 使用本地模型和本地数据进行 DPO，体现它的定制性
 
@@ -40,6 +40,7 @@ llamafactory-cli webui
 ## DPO 训练实战：从理论到实践的完美演绎
 
 别看界面漂亮，功能可一点都不含糊！我马上开始了一次实战训练，选择了最简单但也最能体现特点的配置：
+
 - 模型：`Qwen/Qwen-1_8B`（轻量级但效果不错的中文模型）
 - 数据集：`hh_rlhf_en`（内置的人类反馈数据集）
 - 训练方法：DPO（Direct Preference Optimization）
@@ -144,17 +145,18 @@ llamafactory-cli train \
     --pref_ftx 0 \
     --pref_loss sigmoid
 ```
+
 训练完成后，在 `saves/internlm2-1.8b/lora/dpo_train/` 目录下生成了训练结果：
+
 - `training_loss.png`：训练损失曲线
 - `training_rewards_accuracies.png`：奖励和准确率曲线
 - `adapter_model.safetensors`：训练得到的 LoRA 权重
 - 其他配置文件和中间检查点
 
 训练损失曲线:
+
 <div style="text-align: center;">
     <img src="https://s2.loli.net/2025/01/04/XDZa4zP8sL6pH7f.png" alt="训练损失曲线" style="max-width: 85%; height: auto;">
 </div>
-
-
 
 LlamaFactory 确实是一个非常好用的工具，它让模型微调变得如此简单。通过实践我发现，它的 WebUI 不仅让操作变得直观，更重要的是帮助我们理解了微调过程中的各个参数和步骤。不过需要注意的是，在实际使用中，数据质量和模型选择仍然是最关键的因素。工具再好，也要有优质的数据和合适的基座模型才能训练出好的效果。更多解读理解文档请参考 [link](https://1587causalai.github.io/llama_factory/)。

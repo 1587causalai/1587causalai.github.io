@@ -8,14 +8,12 @@ category: work
 related_publications: true
 ---
 
-
 <!-- # <span style="color: #2E86C1;">PayslipAI</span> - 智能金融文档处理专家 -->
-
-
 
 **通过多层AI验证机制实现工资单与税表信息的精准提取，分类准确率高达98.7%**
 
 <!-- [![API 状态](https://img.shields.io/badge/API-在线运行-2E86C1?style=for-the-badge)](https://payslip-ocr-api-hw7vs5wgwa-de.a.run.app/docs) -->
+
 [![试用API](https://img.shields.io/badge/免费试用-API-27AE60?style=for-the-badge&logo=postman)](https://www.postman.com/payslipai/workspace)
 
 ## ✨ 核心功能
@@ -55,19 +53,18 @@ curl -X POST https://payslip-ocr-api-hw7vs5wgwa-de.a.run.app/api/v1/extract \
 
 ## 🌟 客户见证
 
-
 > "API集成简单快捷，响应速度超乎预期，是我们数字化转型的关键伙伴"  
 > ——FinTech初创公司CRO陈先生
 
 ## 📊 技术优势
 
-| 特性                | 传统方案 | PayslipAI |
-|---------------------|----------|-----------|
-| 准确率              | 85-92%   | 98.7%     |
-| 处理速度            | 5-10s    | <2s       |
-| 支持文档类型        | 3-5种    | 12+种     |
-| 企业级扩展能力      | ❌        | ✅         |
-| 智能验证机制        | 单层     | 三层AI验证|
+| 特性           | 传统方案 | PayslipAI  |
+| -------------- | -------- | ---------- |
+| 准确率         | 85-92%   | 98.7%      |
+| 处理速度       | 5-10s    | <2s        |
+| 支持文档类型   | 3-5种    | 12+种      |
+| 企业级扩展能力 | ❌       | ✅         |
+| 智能验证机制   | 单层     | 三层AI验证 |
 
 ## 📍 适用场景
 
