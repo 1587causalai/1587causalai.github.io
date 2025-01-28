@@ -2,19 +2,31 @@
 layout: page
 title: PayslipOCR - 智能金融文档处理专家
 description: 这是一个基于大语言模型的智能文档信息提取系统，通过多层验证机制和精确的信息提取策略，为工资单和税表等金融文档提供高准确度的自动化处理服务。
-img: assets/img/12.jpg
+img: assets/img/2.png
 importance: 1
 category: work
 related_publications: true
 ---
 
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+    <div style="flex: 0 0 15%;">
+        <img src="https://s2.loli.net/2025/01/28/5rmROZvHFLheXQ8.png" alt="20250128183106" style="width: 100%; height: auto;">
+    </div>
+    <div style="flex: 1;">
+        <p style="font-size: 1.2em; font-weight: bold; margin-top: 0;">
+            通过多层AI验证机制实现工资单与税表信息的精准提取，分类准确率高达98.7%
+        </p>
+        <p>
+            <a href="https://www.postman.com/payslipai/workspace">
+                <img src="https://img.shields.io/badge/免费试用-API-27AE60?style=for-the-badge&logo=postman" alt="试用API">
+            </a>
+        </p>
+    </div>
+</div>
+
 <!-- # <span style="color: #2E86C1;">PayslipAI</span> - 智能金融文档处理专家 -->
 
-**通过多层AI验证机制实现工资单与税表信息的精准提取，分类准确率高达98.7%**
-
 <!-- [![API 状态](https://img.shields.io/badge/API-在线运行-2E86C1?style=for-the-badge)](https://payslip-ocr-api-hw7vs5wgwa-de.a.run.app/docs) -->
-
-[![试用API](https://img.shields.io/badge/免费试用-API-27AE60?style=for-the-badge&logo=postman)](https://www.postman.com/payslipai/workspace)
 
 ## ✨ 核心功能
 
