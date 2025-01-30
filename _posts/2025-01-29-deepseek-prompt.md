@@ -2,7 +2,7 @@
 layout: post
 title: 如何高效使用 DeepSeek-R1? 一些提示词工程本质思考
 date: 2025-01-29
-description: 当普通大模型用户沉迷于魔法咒语时，真正的高手早已返璞归真。那些复杂的思维链模板、角色扮演话术，往往让需求迷失在形式主义中。与AI协作的"道"，在于说清楚需求, 定义好问题, 提供好上下文.
+description: 当普通大模型用户沉迷于魔法咒语时，真正的高手早已返璞归真。那些复杂的思维链模板、角色扮演话术，往往让需求迷失在形式主义中。与AI协作的道，在于说清楚需求, 定义好问题, 提供好上下文.
 tags: DeepSeek-R1 Prompt-Engineering LLM AI
 categories: prompt
 featured: true
