@@ -13,4 +13,7 @@ children:
   - title: divider
   - title: news
     permalink: /news/
+  - title: divider
+  - title: cv
+    permalink: /cv/
 ---
