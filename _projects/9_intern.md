@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: 书生大模型实战营
+description: another project with an image 🎉
+img: assets/img/6.jpg
 importance: 4
 category: fun
 ---

@@ -4,7 +4,7 @@ title: Research Flow
 description: 我们认为需要严谨的学术论文, 通俗易懂的文档, 以及快速代码实现, 我在进行未来的知识创造和传播形式探索,
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 

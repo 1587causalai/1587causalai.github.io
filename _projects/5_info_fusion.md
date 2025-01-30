@@ -5,7 +5,7 @@ description: 一种基于简单随机聚合算子的创新信息融合框架及�
 
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: research
 ---
 
 ## 摘要

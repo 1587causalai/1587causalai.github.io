@@ -3,8 +3,8 @@ layout: page
 title: Dynamic-β-DPO
 description: Dynamic-β-DPO项目通过引入动态化权重参数β(x)，让AI在不同场景下智能调整对用户偏好的响应。我们的创新在于使用神经网络动态调节权重，提升模型的灵活性和适应性，使AI更精准地对齐用户需求。这一技术突破为AI的个性化和智能化开辟了新路径。
 img: assets/img/4.jpg
-importance: 1
-category: fun
+importance: 2
+category: research
 related_publications: true
 ---
 

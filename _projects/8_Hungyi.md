@@ -4,7 +4,7 @@ title: 李宏毅AI课程
 description: 展示一个学生的角色，去学习生成式AI的理论知识，同时也要参与实践操作，最终达到对生成式AI的全面理解。
 img: assets/img/9.jpg
 importance: 2
-category: fun
+category: learn
 giscus_comments: true
 ---
 

@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
+title: Cursor Practice
+description: 这个仓库主要用于记录使用 Cursor 的实践经验和心得. 
+
+img:
 importance: 4
-category: fun
+category: learn
 ---
+
+
+ 这个仓库主要用于记录**使用 Cursor 的实践经验和心得**. 
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
