@@ -9,8 +9,7 @@ category: fun
 
 在人工智能快速发展的今天，跟踪前沿技术发展并建立自己的知识体系变得越来越重要。今天要介绍的是一个围绕「书生·浦语」春节论文茶话会的学习记录项目 2025Spring-InternLM-AI-Salon，它不仅仅是一个简单的笔记系统，更是一个追踪个人在大模型领域成长的知识管理平台。
 
-[快速开始飞书文档](https://swze06osuex.feishu.cn/docx/RF2idcIKEoh4Slxs6mHc1hAgnLf?from=from_copylink)
-
+快速开始飞书文档: https://swze06osuex.feishu.cn/docx/RF2idcIKEoh4Slxs6mHc1hAgnLf?from=from_copylink
 
 ## 项目背景
 
