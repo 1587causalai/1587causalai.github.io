@@ -655,3 +655,14 @@ jsonresume:
   - languages
   - interests
   - references
+
+# -----------------------------------------------------------------------------
+# HTML Proofer Configuration
+# -----------------------------------------------------------------------------
+html_proofer:
+  check_external_hash: true
+  disable_external: false
+  ignore_urls:
+    - "https://*.feishu.cn/*"
+    - "https://feishu.cn/*"
+    - "https://www.feishu.cn/*"
