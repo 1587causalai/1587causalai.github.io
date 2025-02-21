@@ -19,8 +19,8 @@ giscus_comments: true
    - 理论骨架：李宏毅2024新课精华（已整理6大核心模块）
    - 实践肌肉：InternLM实战营的模型调优秘籍
    - 知识脉络：
-   - 持续更新的飞书笔记: https://swze06osuex.feishu.cn/wiki/QEj6w26WsigOyJkRxWyck6qVnQe?from=from_copylink
-   - 代码仓库: https://github.com/1587causalai/InternLM-Tutorial-Personalized-LLM-Research-Assistent
+   - [持续更新的飞书笔记](https://swze06osuex.feishu.cn/wiki/QEj6w26WsigOyJkRxWyck6qVnQe?from=from_copylink)
+   - [代码仓库](https://github.com/1587causalai/InternLM-Tutorial-Personalized-LLM-Research-Assistent)
 
 2. **直击工业级训练全流程**  
    从增量预训练(IPT)到指令微调(SFT)，再到强化学习(RLHF)，完整复现MedicalGPT等工业级训练方案，让你亲手调教出会看病的AI医生。
