@@ -666,3 +666,7 @@ html_proofer:
     - "https://*.feishu.cn/*"
     - "https://feishu.cn/*"
     - "https://www.feishu.cn/*"
+    - "http://localhost:*"
+    - "http://127.0.0.1:*"
+    - "https://img.shields.io/*"
+    - "https://github.com/*/edit/*"
