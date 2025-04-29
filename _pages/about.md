@@ -28,6 +28,6 @@ social: true # includes social icons at the bottom of the page
 
 在这个人工智能凶猛而来的时代, 人类很多工作将会被取代, 甚至会导致自身存在价值质问. 受到 Stephen Wolfram 的计算复杂性理论启发, 因果关系是复杂系统可约化的口袋(Reducible Pocket), 我们相信以因果关系为本质的**科学探索是人类日益重要的永恒事业.**
 
-我们偏好因果关系新视角 --- Causality as Invariance Across Heterogeneous Units. 就像物理定律一样，每个因果关系都有其适用范围，是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系. 基于此我们将个体间的异质性（Heterogeneity）和同质性（Homogeneity）视为因果研究的基本要素(Primitive)，建立了基于个体因果(Individual Causality)的 DiscoSCM 框架.
+我们偏好因果关系新视角 --- Causality as Invariance Across Heterogeneous Units. 就像物理定律一样，每个因果关系都有其适用范围，是 Context-specific 的。每个具体场景定义了一个子群体，其中的个体虽然各不相同，但都遵循相同的因果关系. 基于此我们将个体间的异质性（Heterogeneity）和同质性（Homogeneity）视为因果研究的基本要素(Primitive)，建立了基于个体因果(Individual Causality)的 DiscoSCM 框架. 我们持续探索融合 DiscoSCM 因果框架和大语言模型, 坚信因果关系是未来AI系统必不可少的关键组件。更多详情参见 [Let's Dance with Causality!](/blog/2024/causalai-blueprint/)
 
-正如人类在发展过程中自然获得因果思维，赋予AI系统因果推理能力将是实现真正智能的重要里程碑. 我们探索融合 DiscoSCM 因果框架和大语言模型, 坚信因果关系是未来AI系统必不可少的关键组件. 更多详情参见 [Let's Dance with Causality!](/blog/2024/causalai-blueprint/).
+正如人类在发展过程中自然获得因果思维以理解和交互物质世界，我们相信**因果关系亦是人类与机器沟通的核心桥梁, 是构筑未来高水平人机协作的关键**. **我们正在进行的 "Me" 项目，旨在通过机器深入理解人类的个人简历、认知内核及正在进行的12个项目，从而在协助人类解决本地和局部问题的过程中，提供更加量身定制的解决方案.** 
