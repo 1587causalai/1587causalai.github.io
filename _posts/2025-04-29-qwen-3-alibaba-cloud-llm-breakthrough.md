@@ -10,6 +10,14 @@ toc:
   beginning: true
 ---
 
+$$x^2 + y^2 = z^2$$
+
+$x^2 + y^2 = z^2$
+
+\[x^2 + y^2 = z^2\]
+
+\(x^2 + y^2 = z^2\)
+
 > **关于这篇文章：一个博客工作流的实践与反思 (About This Post: A Blogging Workflow Practice & Reflection)**
 >
 > 这篇文章的诞生，本身就是一次探索如何更顺畅地创作和发布博客的实验。所以，除了下面关于 Qwen 3 的内容，我更想在这里记录一下**它是如何被创作出来的**：
