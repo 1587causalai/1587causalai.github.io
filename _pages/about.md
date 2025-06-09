@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>1587causalai</a>. Jared Karma, Causal AI Engineer
+subtitle: "for seamless collaboration and human-centric apps."
 
 profile:
   align: left

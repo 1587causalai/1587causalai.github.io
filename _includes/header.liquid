@@ -2,25 +2,30 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
+      <!-- Logo and Title -->
+      <a class="navbar-brand d-flex align-items-center" href="{{ site.baseurl }}/">
+        <img src="{{ '/assets/img/causalai_logo.png' | relative_url }}" alt="Logo" height="30" class="mr-2">
+        {% if page.permalink != '/' %}
+          <span class="title font-weight-lighter">
+            {% if site.title == 'blank' %}
+              {% if site.first_name %}
+                <span class="font-weight-bold">
+                  {{- site.first_name -}}
+                </span>
+              {% endif %}
+              {% if site.middle_name %}
+                {{- site.middle_name -}}
+              {% endif %}
+              {% if site.last_name %}
+                {{- site.last_name -}}
+              {% endif %}
+            {% else %}
+              {{- site.title -}}
             {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
+          </span>
+        {% endif %}
+      </a>
+      {% if page.permalink == '/' and site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
