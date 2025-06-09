@@ -3,8 +3,8 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: "我开发的课程和教学材料合集"
-nav: true
-nav_order: 6
+nav: false
+nav_order: 7
 ---
 
 1. 因果推理读书会第一季第一期
