@@ -6,7 +6,7 @@ subtitle: <a href='#'>1587causalai</a>. Jared Karma, Causal AI Engineer
 
 profile:
   align: left
-  image: causalai_logo.png
+  image: kabipula.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Let's Dance with Causality!</p>
