@@ -29,3 +29,10 @@ group :other_plugins do
     gem 'observer'
     gem 'ostruct'
 end
+
+# For more information, see https://kramdown.gettalong.org/converter/math_engine.html
+# gem "kramdown-math-mathjax"
+gem "kramdown-math-katex"
+
+# Specify the Jekyll source directory
+source "."
