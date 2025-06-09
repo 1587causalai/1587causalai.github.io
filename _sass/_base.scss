@@ -285,15 +285,15 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
-    
+
     img {
       transition: all 0.2s ease-in-out;
-      
+
       &:hover {
         transform: scale(1.05);
       }
     }
-    
+
     @media (max-width: 576px) {
       img {
         height: 25px !important;
