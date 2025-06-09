@@ -1,0 +1,7 @@
+# Lychee ignore file - URLs to skip during link checking
+
+# Skip feishu documents as they may require authentication or have access restrictions
+https://swze06osuex.feishu.cn/docx*
+
+# Skip other potentially problematic domains
+*.feishu.cn/* 
