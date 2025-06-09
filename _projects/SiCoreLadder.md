@@ -1,12 +1,11 @@
 ---
 layout: page
-title:  SiCoreLadder：智能为你工作，宇宙等你探索
+title: SiCoreLadder：智能为你工作，宇宙等你探索
 description: 在科技迅猛发展的今天，人工智能（AI）已经不再是遥不可及的科幻概念，而是逐渐融入我们生活的方方面面。SiCoreLadder 项目（https://github.com/1587causalai/SiCoreLadder）正是这一浪潮中的先锋，致力于探索人类与人工智能深度融合的未来，释放前所未有的潜力。SiCoreLadder 的口号是：“Agents work for you, the universe awaits（智能为你工作，宇宙等你探索）”，这不仅是一个愿景，更是对未来科技与人类关系的深刻思考。
-img: assets/img/sicoreladder.png 
+img: assets/img/sicoreladder.png
 importance: 4
 category: work
 ---
-
 
 **引言：迈向人机共创的未来**
 
@@ -73,12 +72,6 @@ SiCoreLadder 是一个开放的项目，任何对人工智能、宇宙探索或�
 
 SiCoreLadder 不仅仅是一个技术项目，更是一个关于未来的梦想。它邀请我们重新思考人与技术的关系，探索人工智能如何助力人类迈向更广阔的舞台。正如项目的口号所说：“Agents work for you, the universe awaits.” 智能为你工作，宇宙在等待——你准备好一起攀登这架通往未来的阶梯了吗？
 
- 
 ![20250409120651](https://s2.loli.net/2025/04/09/bF59WK1pEBQHV6P.png)
 
-
 快来加入 SiCoreLadder，让我们一起塑造一个更智能、更宏大的未来！
-
-
-
-
