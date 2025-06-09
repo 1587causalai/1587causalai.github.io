@@ -5,7 +5,7 @@ date: 2024-12-10
 description: 总结面试要点，并结合上海人工智能实验室评测大模型算法工程师岗位的面试经历，分享深刻教训
 tags: 面试经验 算法工程师 大模型 AI/ML 求职 上海人工智能实验室
 categories: career
-featured: true
+featured: false
 ---
 
 # 大模型算法工程师面试经验与反思

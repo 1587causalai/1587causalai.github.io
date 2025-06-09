@@ -10,13 +10,6 @@ toc:
   beginning: true
 ---
 
-$$x^2 + y^2 = z^2$$
-
-$x^2 + y^2 = z^2$
-
-\[x^2 + y^2 = z^2\]
-
-\(x^2 + y^2 = z^2\)
 
 > **关于这篇文章：一个博客工作流的实践与反思 (About This Post: A Blogging Workflow Practice & Reflection)**
 >

@@ -28,24 +28,28 @@ toc:
 
 *   **模型架构:** 通常是一个神经网络（或其他灵活模型），具有共享的主体/主干网络和多个"头"或输出层。
 *   **示例 (高斯输出):** 对于输入 $x_{i}$，模型输出两个值：
-    *   $\hat{\mu}_{i} = f_{\mu}(x_{i}; \theta)$ (预测均值)
-    *   $\hat{\sigma}_{i} = \text{softplus}(f_{\sigma}(x_{i}; \theta))$ (预测标准差，通过 softplus 或 exp 确保正值)。
+    *   $\hat{\mu}_i = f_{\mu}(x_i; \theta)$ (预测均值)
+    *   $\hat{\sigma}_i = \text{softplus}(f_{\sigma}(x_i; \theta))$ (预测标准差，通过 softplus 或 exp 确保正值)。
 *   **优化:** 最大化总对数似然，等价于最小化负对数似然 (Negative Log-Likelihood, NLL)：
-    *   $L(\theta) = \prod_{i} P(y_{i} \vert x_{i}; \theta) = \prod_{i} \text{pdf}_{N(\hat{\mu}_{i}, \hat{\sigma}_{i}^{2})}(y_{i})$
-    *   $NLL(\theta) = -\sum_{i} \log P(y_{i} \vert x_{i}; \theta)$
-    *   对于高斯情况（忽略常数项）：$NLL(\theta) \approx \sum_{i} \left[ \log(\hat{\sigma}_{i}) + \frac{(y_{i} - \hat{\mu}_{i})^{2}}{2 \hat{\sigma}_{i}^{2}} \right]$
+    *   $L(\theta) = \prod_{i} P(y_i \vert x_i; \theta) = \prod_{i} \text{pdf}_{N(\hat{\mu}_i, \hat{\sigma}_i^2)}(y_i)$
+    *   $NLL(\theta) = -\sum_{i} \log P(y_i \vert x_i; \theta)$
+    *   对于高斯情况（忽略常数项）：
+        $$NLL(\theta) \approx \sum_{i} \left[ \log(\hat{\sigma}_i) + \frac{(y_i - \hat{\mu}_i)^2}{2 \hat{\sigma}_i^2} \right]$$
 
 ## 3. 关键推导：新颖的损失函数 (`Log-Abs-Error`)
 
 *   **来源:** 源于一个思想实验：当 $\sigma_{i}$ 被视为自由参数而不是由模型预测时，NLL 损失会怎样。
 *   **推导步骤:**
-    1.  从样本 $i$ 的高斯 NLL 开始：$\text{Loss}_{i} = \log(\sigma_{i}) + \frac{(y_{i} - \mu_{i})^{2}}{2 \sigma_{i}^{2}}$。
+    1.  从样本 $i$ 的高斯 NLL 开始：
+        $$\text{Loss}_{i} = \log(\sigma_{i}) + \frac{(y_{i} - \mu_{i})^{2}}{2 \sigma_{i}^{2}}$$
     2.  固定 $\mu_{i}$（由 $f_{\mu}(x_{i}; \theta)$ 预测），找到最小化 $\text{Loss}_{i}$ 的最优 $\sigma_{i}^{*}$。这发生在 $\frac{d \text{Loss}_{i}}{d \sigma_{i}} = \frac{1}{\sigma_{i}} - \frac{(y_{i} - \mu_{i})^{2}}{\sigma_{i}^{3}} = 0$ 时。
     3.  求解得到最优方差：$\sigma_{i}^{*2} = (y_{i} - \mu_{i})^{2}$，因此最优标准差为 $\sigma_{i}^{*} = \vert y_{i} - \mu_{i} \vert$。
-    4.  将 $\sigma_{i}^{*}$ 代回样本 $i$ 的 NLL 损失：$\text{Loss}_{i}( \theta, \sigma_{i}^{*}) = \log(\vert y_{i} - \mu_{i} \vert) + \frac{(y_{i} - \mu_{i})^{2}}{2(y_{i} - \mu_{i})^{2}} = \log(\vert y_{i} - \mu_{i} \vert) + \frac{1}{2}$。
-    5.  对所有样本 $i$ 求和，并忽略常数项 $\frac{n}{2}$，得到**轮廓负对数似然 (profile negative log-likelihood)** 损失：$\text{Loss}_{\text{profile}}(\theta) = \sum_{i=1}^{n} \log(\vert y_{i} - \mu_{i} \vert)$。
+    4.  将 $\sigma_{i}^{*}$ 代回样本 $i$ 的 NLL 损失：
+        $$\text{Loss}_{i}( \theta, \sigma_{i}^{*}) = \log(\vert y_{i} - \mu_{i} \vert) + \frac{(y_{i} - \mu_{i})^{2}}{2(y_{i} - \mu_{i})^{2}} = \log(\vert y_{i} - \mu_{i} \vert) + \frac{1}{2}$$
+    5.  对所有样本 $i$ 求和，并忽略常数项 $\frac{n}{2}$，得到**轮廓负对数似然 (profile negative log-likelihood)** 损失：
+        $$\text{Loss}_{\text{profile}}(\theta) = \sum_{i=1}^{n} \log(\vert y_{i} - \mu_{i} \vert)$$
     6.  **稳定化处理:** 为防止当 $\mu_{i} = y_{i}$ 时出现 $\log(0)$，引入一个小的正常数 $\epsilon > 0$：
-        $\text{Loss}_{\text{novel}}(\theta) = \sum_{i=1}^{n} \log(\max(\vert y_{i} - \mu_{i} \vert, \epsilon))$
+        $$\text{Loss}_{\text{novel}}(\theta) = \sum_{i=1}^{n} \log(\max(\vert y_{i} - \mu_{i} \vert, \epsilon))$$
 *   **提议:** 将此 $\text{Loss}_{\text{novel}}$ **直接**用作仅预测均值 $\mu_{i}$ 的模型的回归损失函数。
 
 ### 3.1 改进损失函数及其概率解释：与柯西分布的联系
@@ -59,7 +63,7 @@ $$ p(y \vert \mu, \gamma) = \frac{1}{\pi\gamma \left(1 + \left(\frac{y - \mu}{\g
 对于单个观测 $y_{i}$，其负对数似然 (NLL) 为：
 $$ NLL_{i} = -\log p(y_{i} \vert \mu_{i}, \gamma) = \log(\pi) + \log(\gamma) + \log(\gamma^{2} + (y_{i} - \mu_{i})^{2}) $$
 假设残差 $(y_{i} - \mu_{i})$ 服从一个**固定尺度参数 $\gamma$** 的柯西分布（即 $\gamma$ 不依赖于 $x_{i}$ 且不通过模型学习），那么整个数据集的总 NLL 为：
-$$ NLL_{\text{total}} = \sum_{i} NLL_{i} = n(\log(\pi) + \log(\gamma)) + \sum_{i} \log(\gamma^{2} + (y_{i} - \mu_{i})^{2}) $$
+$$ NLL_{\text{total}} = n(\log(\pi) + \log(\gamma)) + \sum_{i} \log(\gamma^{2} + (y_{i} - \mu_{i})^{2}) $$
 
 **关键联系:** 如果我们将我们提出的损失函数中的 $\epsilon$ 视为固定的尺度参数平方，即 $\epsilon = \gamma^{2}$，那么：
 $$ L_{\text{CauchyLike}} = \sum_{i} \log((y_{i} - \mu_{i})^{2} + \gamma^{2}) $$

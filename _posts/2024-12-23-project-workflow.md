@@ -5,7 +5,7 @@ date: 2024-12-23 10:00:00
 description: 一个融合学术论文、项目文档和代码实现的 AI-Powered 现代化知识创造与传播体系
 tags: research workflow AI knowledge-sharing
 categories: tools
-featured: true
+featured: false
 ---
 
 上个月我写了一篇关于如何用 Overleaf 和 Cursor 来提升论文写作效率的文章。这个月的实践让我对整个研究工作流有了更深层的思考 —— 这不仅仅是工具的选择，而是关于如何更好地创造和传播知识。
