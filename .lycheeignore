@@ -4,4 +4,4 @@
 https://swze06osuex.feishu.cn/docx*
 
 # Skip other potentially problematic domains
-*.feishu.cn/* 
+https://*.feishu.cn/* 
