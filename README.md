@@ -8,7 +8,7 @@
     docker-compose up
 ```
 
-然后访问 http://localhost:8080 
+然后访问 http://localhost:8080
 
 2. 本地安装:
 
