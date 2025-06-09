@@ -5,7 +5,7 @@ date: 2025-03-18
 description: 今天，我在篮球场上经历了一场颇具启发性的投篮训练，不仅让我对如何提高投篮命中率有了新的认识，还让我对如何给大语言模型喂提示词，甚至如何给作为智能体的自己喂提示词有了新的思考。
 tags: prompt-engineering AI 思考 basketball
 categories: thinking
-featured: true
+featured: false
 ---
 
 ## 一、篮球场上的顿悟：替代目标的力量

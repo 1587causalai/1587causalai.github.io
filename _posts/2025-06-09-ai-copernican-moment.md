@@ -9,6 +9,7 @@ toc:
   beginning: true
 related_posts: true
 future: true
+featured: true
 ---
 
 # AI 的"哥白尼时刻"：我们关于线性因果律的大胆宣言
