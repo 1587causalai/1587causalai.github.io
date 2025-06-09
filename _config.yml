@@ -225,7 +225,8 @@ future: true
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  math_engine: mathjax
+  input: GFM
+  math_engine: katex
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -531,10 +532,20 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
     version: "3.6.0"
+  katex:
+    integrity:
+      css: "sha256-CMG3B4/IeEVhG2WqZG1C46T/2p6TDS8cWqCVoZ0O3zM="
+      js: "sha256-iZwD1YOjN3e29f3i4vYq98hH5E923C/4f3833nsi3M="
+      contrib: "sha256-9eS9xG9Q8NgC7jL9J/33yDqeFmD4kP+LmywAE8rW2Nc="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/katex@{{version}}/dist/katex.min.css"
+      js: "https://cdn.jsdelivr.net/npm/katex@{{version}}/dist/katex.min.js"
+      contrib: "https://cdn.jsdelivr.net/npm/katex@{{version}}/dist/contrib/auto-render.min.js"
+    version: "0.16.10"
   leaflet:
     integrity:
       css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
-      js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
+      js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
     local:
       images: "images/"
@@ -544,15 +555,6 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
-  mathjax:
-    integrity:
-      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
-    local:
-      fonts: "output/chtml/fonts/woff-v2/"
-    url:
-      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
-    version: "3.2.2"
   masonry:
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="

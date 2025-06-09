@@ -28,13 +28,13 @@ toc:
 
 *   **模型架构:** 通常是一个神经网络（或其他灵活模型），具有共享的主体/主干网络和多个"头"或输出层。
 *   **示例 (高斯输出):** 对于输入 $x_{i}$，模型输出两个值：
-    *   $\hat{\mu}_i = f_{\mu}(x_i; \theta)$ (预测均值)
-    *   $\hat{\sigma}_i = \text{softplus}(f_{\sigma}(x_i; \theta))$ (预测标准差，通过 softplus 或 exp 确保正值)。
+    *   $\hat{\mu}_{i} = f_{\mu}(x_{i}; \theta)$ (预测均值)
+    *   $\hat{\sigma}_{i} = \text{softplus}(f_{\sigma}(x_{i}; \theta))$ (预测标准差，通过 softplus 或 exp 确保正值)。
 *   **优化:** 最大化总对数似然，等价于最小化负对数似然 (Negative Log-Likelihood, NLL)：
-    *   $L(\theta) = \prod_{i} P(y_i \vert x_i; \theta) = \prod_{i} \text{pdf}_{N(\hat{\mu}_i, \hat{\sigma}_i^2)}(y_i)$
-    *   $NLL(\theta) = -\sum_{i} \log P(y_i \vert x_i; \theta)$
+    *   $L(\theta) = \prod_{i} P(y_{i} \vert x_{i}; \theta) = \prod_{i} \text{pdf}_{N(\hat{\mu}_{i}, \hat{\sigma}_{i}^{2})}(y_{i})$
+    *   $NLL(\theta) = -\sum_{i} \log P(y_{i} \vert x_{i}; \theta)$
     *   对于高斯情况（忽略常数项）：
-        $$NLL(\theta) \approx \sum_{i} \left[ \log(\hat{\sigma}_i) + \frac{(y_i - \hat{\mu}_i)^2}{2 \hat{\sigma}_i^2} \right]$$
+        $$NLL(\theta) \approx \sum_{i} \left[ \log(\hat{\sigma}_{i}) + \frac{(y_{i} - \hat{\mu}_{i})^{2}}{2 \hat{\sigma}_{i}^{2}} \right]$$
 
 ## 3. 关键推导：新颖的损失函数 (`Log-Abs-Error`)
 
