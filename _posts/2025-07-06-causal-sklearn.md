@@ -14,19 +14,21 @@ featured: true
 
 # Causal-Sklearn：当机器开始理解"这是谁"
 
-> *基于突破性CausalEngine™算法的scikit-learn兼容包——将因果推理的强大能力带入传统机器学习生态系统。当AI学会问"这是谁"而不只是"输出是什么"时，我们就开启了因果智能的新纪元。*
+> _基于突破性CausalEngine™算法的scikit-learn兼容包——将因果推理的强大能力带入传统机器学习生态系统。当AI学会问"这是谁"而不只是"输出是什么"时，我们就开启了因果智能的新纪元。_
 
 ## 核心理念：从传统ML到因果ML的跨越
 
 想象你面前有两个学生，他们有着完全相同的背景资料——同样的年龄、同样的测试分数、同样的学习时间、同样的家庭环境。但当考试结果出来时，一个得了95分，另一个只有65分。
 
 **传统机器学习**会这样理解：
+
 - 范式：从可观测个体特征到结果的映射 `X → Y`
 - 数学表达：学习条件期望 $E[Y|X]$
 - 结论："相同的输入，不同的输出，这是误差项。"
 
 **因果机器学习**则这样思考：
-- 范式：从不可观测个体因果表示到结果的推理 `U → Y`  
+
+- 范式：从不可观测个体因果表示到结果的推理 `U → Y`
 - 数学表达：学习结构方程 $Y = f(U, \varepsilon)$
 - 结论："这是两个完全不同的个体，我需要理解他们的本质差异。"
 
@@ -39,6 +41,7 @@ featured: true
 causal-sklearn不只是另一个机器学习包，它代表着四个根本性的突破：
 
 ### 🎯 突破一：因果vs相关
+
 **超越传统模式匹配，实现真正的因果关系理解**
 
 传统方法问："什么和什么相关？"
@@ -46,22 +49,25 @@ causal-sklearn问："为什么会这样？"
 
 每个预测都有完整的因果解释：从观察到推理，从理解到决策。
 
-### 🛡️ 突破二：鲁棒性优势  
+### 🛡️ 突破二：鲁棒性优势
+
 **在噪声和异常值存在时表现出色，远超传统方法**
 
 我们在30%标签噪声环境下的实验结果：
 
-| 方法 | MAE ↓ | RMSE ↓ | R² ↑ |
-|------|-------|--------|------|
-| sklearn MLP | 47.60 | 59.87 | 0.8972 |
+| 方法                        | MAE ↓     | RMSE ↓    | R² ↑       |
+| --------------------------- | --------- | --------- | ---------- |
+| sklearn MLP                 | 47.60     | 59.87     | 0.8972     |
 | **CausalEngine (standard)** | **11.41** | **13.65** | **0.9947** |
 
 ### 🧮 突破三：数学创新
+
 **以柯西分布为核心的全新数学框架**
 
 基于深刻的哲学洞察：在反事实世界里，一切皆有可能。这种开放性思维带来了计算上的意外礼物——完全解析化的推理过程。
 
 ### 🔧 突破四：sklearn兼容
+
 **完美融入现有ML工作流，无需改变使用习惯**
 
 ```python
@@ -81,10 +87,12 @@ from causal_sklearn import MLPCausalRegressor
 $U$ 有着深刻的双重身份：
 
 **身份一：个体选择变量**
+
 - $U=u$ 意味着从所有可能的个体中"选择"了特定个体 $u$
 - 这回答了"我们面对的是哪一个个体？"
 
-**身份二：个体因果表征**  
+**身份二：个体因果表征**
+
 - 向量 $u \in \mathbb{R}^d$ 包含了这个个体所有内在的、驱动其行为的本质属性
 - 这回答了"这个个体的本质特征是什么？"
 
@@ -92,14 +100,17 @@ $U$ 有着深刻的双重身份：
 
 通过引入 $U$，我们实现了个体差异建模与因果推理的优雅统一：
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{感知阶段：} & \quad Z = \text{Perception}(X) \\
 \text{归因阶段：} & \quad U \sim \text{Cauchy}(\mu_U(Z), \gamma_U(Z)) \\
 \text{行动阶段：} & \quad S = \text{Action}(U) \\
 \text{决策阶段：} & \quad Y = \text{Decision}(S)
-\end{aligned}$$
+\end{aligned}
+$$
 
 这个框架的美妙之处在于：
+
 - **$f(\cdot)$ 的普适性**：对所有个体都是同一个因果律
 - **$U$ 的个体性**：每个个体都有独特的表征
 - **推理的透明性**：每一步都有明确的认知含义
@@ -108,13 +119,14 @@ $$\begin{aligned}
 
 让我们用一个对比来理解这个突破的重要性：
 
-| 方法类型 | 个体差异处理 | 数学表示 | 哲学地位 |
-|---------|-------------|----------|----------|
-| **传统回归** | 误差项 | $Y = f(X) + \varepsilon$ | 统计噪声，需要抑制 |
-| **混合效应模型** | 随机效应 | $Y = f(X) + b_i + \varepsilon$ | 统计变异，无结构 |
-| **因果回归** | **因果表征** | $Y = f(U, \varepsilon)$ | **因果实体，可解释** |
+| 方法类型         | 个体差异处理 | 数学表示                       | 哲学地位             |
+| ---------------- | ------------ | ------------------------------ | -------------------- |
+| **传统回归**     | 误差项       | $Y = f(X) + \varepsilon$       | 统计噪声，需要抑制   |
+| **混合效应模型** | 随机效应     | $Y = f(X) + b_i + \varepsilon$ | 统计变异，无结构     |
+| **因果回归**     | **因果表征** | $Y = f(U, \varepsilon)$        | **因果实体，可解释** |
 
 这种转变让我们能够：
+
 - 将个体差异从"需要控制的变异"转化为"需要理解的信息"
 - 提供个体化因果推理的数学基础
 - 支持反事实推理：给定不同的 $U$，结果会如何变化？
@@ -133,11 +145,13 @@ $$Z = \text{PerceptionNetwork}(X)$$
 
 #### 第二问："这背后是什么样的个体？" (Abduction)
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \mu_U(Z) &= \text{LocNetwork}(Z) \\
 \gamma_U(Z) &= \text{ScaleNetwork}(Z) \\
 U &\sim \text{Cauchy}(\mu_U(Z), \gamma_U(Z))
-\end{aligned}$$
+\end{aligned}
+$$
 
 这是整个系统的核心创新。不是问"这个输入会产生什么输出"，而是问"什么样的个体会产生这样的证据？"这是一种逆向推理——从结果推原因，正是人类智能的核心特征。
 
@@ -186,10 +200,12 @@ $$f(x|\mu, \gamma) = \frac{1}{\pi\gamma}\left[1 + \left(\frac{x-\mu}{\gamma}\rig
 选择柯西分布的三重理由：
 
 **1. 开放世界的数学诚实**
+
 - 重尾特性为"一切皆有可能"的反事实推断保留了不可忽略的概率
 - 与高斯分布的轻尾"封闭世界"假设形成对比
 
 **2. 数学上的"深刻未知"**
+
 - $E[X] = \text{undefined}$，$\text{Var}[X] = \text{undefined}$
 - 诚实表达了"我们永远无法完全了解一个个体"的哲学事实
 
@@ -213,10 +229,10 @@ CausalEngine通过温度参数 $\tau$ 和采样标志实现了多种推理模式
 def inference(self, X, temperature=1.0, do_sample=False):
     # 感知阶段
     Z = self.perception_network(X)
-    
-    # 归因阶段  
+
+    # 归因阶段
     mu_U, gamma_U = self.abduction_network(Z)
-    
+
     if temperature == 0:
         # 纯因果模式
         U_effective = mu_U
@@ -228,10 +244,10 @@ def inference(self, X, temperature=1.0, do_sample=False):
         # 标准模式
         gamma_U_effective = gamma_U + temperature * torch.abs(self.b_noise)
         U_effective = torch.distributions.Cauchy(mu_U, gamma_U_effective).sample()
-    
+
     # 行动阶段
     S = self.action_network(U_effective)
-    
+
     # 决策阶段
     return self.decision_head(S)
 ```
@@ -243,13 +259,14 @@ CausalEngine能够将总体不确定性分解为两个有明确含义的部分�
 $$\text{总不确定性} = \text{认知不确定性} + \text{外生不确定性}$$
 
 其中：
+
 - **认知不确定性** $\gamma_U(X)$：我们对个体 $U$ 理解的局限性
 - **外生不确定性** $|\beta_{\text{noise}}|$：世界本身的固有随机性
 
 ```python
 def uncertainty_decomposition(self, X):
     mu_U, gamma_U = self.abduction_network(self.perception_network(X))
-    
+
     return {
         'epistemic': gamma_U,           # "我们不知道"
         'aleatoric': torch.abs(self.b_noise),  # "世界本身随机"
@@ -317,7 +334,7 @@ for i, x in enumerate(X_test):
     基于观察特征 {x}，
     我推断这是一个具有表征 μ={distributions['loc'][i]:.3f} 的个体，
     我对这个推断的不确定性为 γ={uncertainty['epistemic'][i]:.3f}。
-    
+
     根据我学到的因果规律，这样的个体会产生决策得分 {model._get_decision_scores(x):.3f}。
     考虑到外生随机性 {uncertainty['aleatoric'][i]:.3f}，
     我的最终预测是 {point_predictions[i]:.3f}。
@@ -372,7 +389,7 @@ python scripts/quick_test_causal_engine.py
 
 # 这个脚本将：
 # ✅ 生成合成数据（回归：4000样本×12特征，分类：4000样本×10特征×3类）
-# ✅ 在30%噪声下比较8种方法性能  
+# ✅ 在30%噪声下比较8种方法性能
 # ✅ 统一标准化策略确保公平比较
 # ✅ 生成完整的性能分析报告和可视化图表
 ```
@@ -381,21 +398,21 @@ python scripts/quick_test_causal_engine.py
 
 **回归任务（30%标签噪声）**：
 
-| 方法 | MAE ↓ | MdAE ↓ | RMSE ↓ | R² ↑ |
-|------|-------|--------|--------|------|
-| sklearn MLP | 47.60 | 39.28 | 59.87 | 0.8972 |
-| pytorch MLP | 59.70 | 47.25 | 77.36 | 0.8284 |
+| 方法                  | MAE ↓     | MdAE ↓    | RMSE ↓    | R² ↑       |
+| --------------------- | --------- | --------- | --------- | ---------- |
+| sklearn MLP           | 47.60     | 39.28     | 59.87     | 0.8972     |
+| pytorch MLP           | 59.70     | 47.25     | 77.36     | 0.8284     |
 | **Causal (standard)** | **11.41** | **10.22** | **13.65** | **0.9947** |
 
 **分类任务（30%标签噪声）**：
 
-| 方法 | Accuracy ↑ | Precision ↑ | Recall ↑ | F1-Score ↑ |
-|------|------------|-------------|----------|------------|
-| sklearn MLP | 0.8850 | 0.8847 | 0.8850 | 0.8848 |
-| pytorch MLP | 0.8950 | 0.8952 | 0.8950 | 0.8951 |
-| **Causal (standard)** | **0.9225** | **0.9224** | **0.9225** | **0.9224** |
+| 方法                  | Accuracy ↑ | Precision ↑ | Recall ↑   | F1-Score ↑ |
+| --------------------- | ---------- | ----------- | ---------- | ---------- |
+| sklearn MLP           | 0.8850     | 0.8847      | 0.8850     | 0.8848     |
+| pytorch MLP           | 0.8950     | 0.8952      | 0.8950     | 0.8951     |
+| **Causal (standard)** | **0.9225** | **0.9224**  | **0.9225** | **0.9224** |
 
-*`standard` 模式通过其独特的因果推理机制，在噪声环境下实现了性能的飞跃，证明了其卓越的鲁棒性。*
+_`standard` 模式通过其独特的因果推理机制，在噪声环境下实现了性能的飞跃，证明了其卓越的鲁棒性。_
 
 ### 🏠 真实世界验证：加州房价预测
 
@@ -456,20 +473,20 @@ def generate_causal_explanation(self, X):
     U_sample = torch.distributions.Cauchy(mu_U, gamma_U).sample()
     S = self.action_network(U_sample)
     Y = self.decision_head(S)
-    
+
     explanation = f"""
     【感知阶段】基于输入特征 {X.tolist()}，我提取到认知特征 {Z.tolist()[:3]}...
-    
+
     【归因阶段】基于这些证据，我推断这最可能是一个具有本质特征 {mu_U.tolist()[:3]}... 的个体，
                我对这个推断的置信度体现在不确定性参数 {gamma_U.tolist()[:3]}... 中。
-    
+
     【行动阶段】根据我学到的普适因果律，这样的个体会产生决策倾向 {S.tolist()[:3]}...
-    
+
     【决策阶段】因此，我的最终预测是 {Y.item():.3f}。
-    
+
     这个预测的认知不确定性是 {gamma_U.mean():.3f}，外生不确定性是 {torch.abs(self.b_noise).item():.3f}。
     """
-    
+
     return explanation
 ```
 
@@ -481,17 +498,20 @@ def generate_causal_explanation(self, X):
 
 Judea Pearl用"因果阶梯"描述了智能的三个层次：
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{第一层（关联）：} & \quad P(Y|X) \text{ - "观察到X时，Y的概率是什么？"} \\
 \text{第二层（干预）：} & \quad P(Y|\text{do}(X)) \text{ - "如果我们设置X，Y会如何？"} \\
 \text{第三层（反事实）：} & \quad P(Y_x|X=x', Y=y') \text{ - "如果过去X不同，Y会怎样？"}
-\end{aligned}$$
+\end{aligned}
+$$
 
 ### CausalEngine的独特定位
 
 传统机器学习大多停留在第一层。而CausalEngine从诞生之初，就是为攀登更高的阶梯而设计的：
 
 **支持干预分析**：
+
 ```python
 # 反事实推理：如果改变个体特征，结果会如何？
 original_U = model.infer_individual(X)
@@ -505,6 +525,7 @@ causal_effect = counterfactual_outcome - original_outcome
 ```
 
 **支持反事实推理**：
+
 - 归因推断本身就是一种反事实思考："什么样的个体会产生这样的结果？"
 - 个体表征$U$为"如果这个人不同，会怎样"的问题提供了自然框架
 
@@ -521,7 +542,7 @@ CausalEngine提供了四种推理模式，每种都有其独特的适用场景�
 model_deterministic = MLPCausalRegressor(mode='deterministic')
 
 # 外生模式：强调环境随机性的影响
-model_exogenous = MLPCausalRegressor(mode='exogenous')  
+model_exogenous = MLPCausalRegressor(mode='exogenous')
 
 # 内生模式：强调认知不确定性的重要性
 model_endogenous = MLPCausalRegressor(mode='endogenous')
