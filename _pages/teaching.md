@@ -8,7 +8,6 @@ nav_order: 7
 ---
 
 1. 因果科学和CausalAI读书会第一季第一期
-
    - 学生时代在因果科学领域的重要贡献，发起并启动了国内首个因果科学社区
    - **视频 [link](https://pattern.swarma.org/study_group_issue/5)**
 
