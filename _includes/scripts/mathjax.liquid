@@ -15,9 +15,17 @@
           ],
           processEscapes: true,
           processEnvironments: true,
+          macros: {
+            '|': '\\vert',
+          },
         },
         options: {
-          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+          ignoreHtmlClass: 'no-mathjax',
+          processHtmlClass: 'mathjax',
+        },
+        loader: {
+          load: ['[tex]/autoload'],
         },
       };
     </script>

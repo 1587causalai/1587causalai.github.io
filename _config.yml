@@ -234,6 +234,9 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+  hard_wrap: false
+  gfm_quirks: ["no_auto_typographic"]
+  parse_block_html: true
 
 # Includes & excludes
 include: ["_pages"]
